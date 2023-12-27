@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\acadamy\acadamy\bin\Debug\net8.0-windows\acadamy.exe
+C:\Users\ASUS\source\repos\acadamy\acadamy\bin\Debug\net8.0-windows\acadamy.deps.json
+C:\Users\ASUS\source\repos\acadamy\acadamy\bin\Debug\net8.0-windows\acadamy.runtimeconfig.json
+C:\Users\ASUS\source\repos\acadamy\acadamy\bin\Debug\net8.0-windows\acadamy.dll
+C:\Users\ASUS\source\repos\acadamy\acadamy\bin\Debug\net8.0-windows\acadamy.pdb
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.Form1.resources
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.dll
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\refint\acadamy.dll
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.pdb
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\acadamy.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\acadamy\acadamy\obj\Debug\net8.0-windows\ref\acadamy.dll
