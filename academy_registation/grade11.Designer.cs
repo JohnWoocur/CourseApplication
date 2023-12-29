@@ -49,7 +49,7 @@ namespace academy_registation
             this.label1.Font = new System.Drawing.Font("Century", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(207, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(356, 44);
+            this.label1.Size = new System.Drawing.Size(347, 44);
             this.label1.TabIndex = 8;
             this.label1.Text = "Woocurs Academy";
             // 
@@ -65,6 +65,7 @@ namespace academy_registation
             this.btnapply3.TabIndex = 14;
             this.btnapply3.Text = "Apply";
             this.btnapply3.UseVisualStyleBackColor = false;
+            this.btnapply3.Click += new System.EventHandler(this.btnapply3_Click);
             // 
             // btnapply2
             // 
@@ -78,6 +79,7 @@ namespace academy_registation
             this.btnapply2.TabIndex = 13;
             this.btnapply2.Text = "Apply";
             this.btnapply2.UseVisualStyleBackColor = false;
+            this.btnapply2.Click += new System.EventHandler(this.btnapply2_Click);
             // 
             // btnapply
             // 
@@ -91,6 +93,7 @@ namespace academy_registation
             this.btnapply.TabIndex = 12;
             this.btnapply.Text = "Apply";
             this.btnapply.UseVisualStyleBackColor = false;
+            this.btnapply.Click += new System.EventHandler(this.btnapply_Click);
             // 
             // pictureBox3
             // 

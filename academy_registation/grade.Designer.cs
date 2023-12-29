@@ -81,9 +81,9 @@ namespace academy_registation
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(90, 181);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 21);
+            this.label5.Size = new System.Drawing.Size(112, 21);
             this.label5.TabIndex = 18;
-            this.label5.Text = "2.Grade 11";
+            this.label5.Text = "2. Grade 11";
             // 
             // label4
             // 
@@ -117,9 +117,9 @@ namespace academy_registation
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(43, 334);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 35);
+            this.label2.Size = new System.Drawing.Size(315, 35);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Enter Your Grade No :";
+            this.label2.Text = "Enter your Grade no :";
             // 
             // label1
             // 
@@ -129,7 +129,7 @@ namespace academy_registation
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(60, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(445, 57);
+            this.label1.Size = new System.Drawing.Size(438, 55);
             this.label1.TabIndex = 14;
             this.label1.Text = "Woocurs Academy";
             // 

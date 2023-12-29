@@ -39,9 +39,30 @@ namespace academy_registation
 
         private void button2_Click(object sender, EventArgs e)
         {
-            login fm = new login();
-            this.Hide();
-            fm.Show();
+            if (txtname.Text != "" && txtsid.Text != "" && txtemail.Text != "" && txtcontact.Text != "" && txtpassword.Text != "")
+            {
+                string name = txtname.Text;
+                string sid = txtsid.Text;
+                string email = txtemail.Text;
+                string contact = txtcontact.Text;
+                string password = txtpassword.Text;
+
+
+                string registerData = $"{name},{sid},{email},{contact},{password}\r\n";
+                string path = @"students.txt";
+
+                System.IO.File.AppendAllText(path, registerData);
+
+                MessageBox.Show("Registered Successfully!");
+
+                login fm = new login();
+                this.Hide();
+                fm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Empty Field");
+            }
         }
     }
 }

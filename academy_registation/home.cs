@@ -28,5 +28,12 @@ namespace academy_registation
             this.Hide();
             fm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            register fm = new register();
+            this.Hide();
+            fm.Show();
+        }
     }
 }

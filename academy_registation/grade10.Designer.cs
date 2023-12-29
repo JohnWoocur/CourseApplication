@@ -44,17 +44,6 @@ namespace academy_registation
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(203, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(356, 44);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Woocurs Academy";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -65,6 +54,17 @@ namespace academy_registation
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(203, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(347, 44);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Woocurs Academy";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox2
             // 
@@ -98,6 +98,7 @@ namespace academy_registation
             this.btnapply.TabIndex = 5;
             this.btnapply.Text = "Apply";
             this.btnapply.UseVisualStyleBackColor = false;
+            this.btnapply.Click += new System.EventHandler(this.btnapply_Click);
             // 
             // btnapply2
             // 
@@ -111,6 +112,7 @@ namespace academy_registation
             this.btnapply2.TabIndex = 6;
             this.btnapply2.Text = "Apply";
             this.btnapply2.UseVisualStyleBackColor = false;
+            this.btnapply2.Click += new System.EventHandler(this.btnapply2_Click);
             // 
             // btnapply3
             // 
@@ -124,6 +126,7 @@ namespace academy_registation
             this.btnapply3.TabIndex = 7;
             this.btnapply3.Text = "Apply";
             this.btnapply3.UseVisualStyleBackColor = false;
+            this.btnapply3.Click += new System.EventHandler(this.btnapply3_Click);
             // 
             // label2
             // 
