@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Xml.Linq;
 
 namespace academy_registation
 {
@@ -36,9 +38,47 @@ namespace academy_registation
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            grade fm = new grade();
-            this.Hide();
-            fm.Show();
+            string name = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            string[] lines = File.ReadAllLines("students.txt");
+
+            if (txtUsername.Text != "" && txtPassword.Text != "")
+            {
+
+
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length == 5)
+                    {
+                        string storedname = parts[0].Trim();
+                        string storedPassword = parts[4].Trim();
+
+                        if (storedname == name && storedPassword == password)
+                        {
+                            MessageBox.Show("Login Successfully");
+                            grade fm = new grade();
+                            this.Hide();
+                            fm.Show();
+
+                        }
+                    }
+
+                    else
+                    {
+                        MessageBox.Show("Invalid Username or Password... Please Try Again!!");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Empty Field");
+            }
+
+
+
+
         }
 
         private void login_Load(object sender, EventArgs e)
